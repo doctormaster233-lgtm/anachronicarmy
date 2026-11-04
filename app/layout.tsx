@@ -3,8 +3,19 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Alias Attack — The Nametag Game',
-  description: 'Catch the right name in this fast-paced nametag switching game.',
+  title: 'Sharon Epic Armando — Artist & Developer',
+  description:
+    'Artist — singer, comic artist, designer, performer. Developer — builds and deploys the web projects, AI tools, and quantum visualizations that come out of that work.',
+  openGraph: {
+    title: 'Sharon Epic Armando — Artist & Developer',
+    description: 'Artist — singer, comic artist, designer, performer. Developer — builds and deploys the web projects, AI tools, and quantum visualizations that come out of that work.',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: 'Sharon Epic Armando — Artist & Developer',
+    description: 'Artist — singer, comic artist, designer, performer. Developer — builds and deploys the web projects, AI tools, and quantum visualizations that come out of that work.',
+  },
   generator: 'v0.app',
   icons: {
     icon: [
